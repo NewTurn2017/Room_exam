@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
-            android:hint="할일"
+            android:hint="메모내용을 입력하세요"
             android:inputType="text" />
         <Button
             android:id="@+id/btn_add"
@@ -32,10 +32,7 @@
     <TextView
         android:id="@+id/tv_contents"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="안녕"/>
-
-
+        android:layout_height="match_parent"/>
 
 
 </LinearLayout>
